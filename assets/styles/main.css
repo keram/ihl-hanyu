@@ -1,0 +1,51 @@
+@charset "UTF-8";
+
+body {
+  margin: 1em 2em;
+}
+
+.lang-zh {
+  font-size: 1.2em;
+  color: #030303;
+}
+
+.lang-en,
+.lang-pi {
+  display: block;
+  opacity: 0;
+  /* visibility: hidden; */
+  /* border-bottom: solid 1px red; */
+  /* background: blue; */
+}
+
+.lang-en {
+  color: #222;
+}
+
+.lang-pi {
+  color: #555;
+  font-size: 0.875em;
+}
+
+/* .lang-en:before { */
+/*   content: "english"; */
+/* } */
+
+.lang-en:hover,
+.lang-pi:hover {
+  visibility: visible;
+  opacity: 1;
+}
+
+.lang-en-visible .lang-en,
+.lang-pi-visible .lang-pi {
+  visibility: visible;
+  opacity: 1;
+}
+
+th {
+  text-align: left;
+}
+td {
+  /* padding: 1em 2em; */
+}
