@@ -7,6 +7,7 @@ body {
 .lang-zh {
   font-size: 1.2em;
   color: #030303;
+  display: block;
 }
 
 .lang-en,
@@ -18,8 +19,13 @@ body {
   /* background: blue; */
 }
 
+.lang-block p {
+  margin: 0 0 5px 0;
+}
+
 .lang-en {
   color: #222;
+  padding-bottom: 5px;
 }
 
 .lang-pi {
@@ -31,11 +37,17 @@ body {
 /*   content: "english"; */
 /* } */
 
-.lang-en:hover,
-.lang-pi:hover {
+
+.lang-block p:hover .lang-pi {
   visibility: visible;
   opacity: 1;
 }
+
+.lang-en:hover {
+  visibility: visible;
+  opacity: 1;
+}
+
 
 .lang-en-visible .lang-en,
 .lang-pi-visible .lang-pi {
