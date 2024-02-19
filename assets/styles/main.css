@@ -9,13 +9,20 @@ html {
 body {
   margin: 0;
   font-family: -apple-system, "Segoe UI", "Noto Sans", Helvetica, Arial, sans-serif;
-  font-size: 1.125rem;
+  /* font-size: 1.125rem; */
 }
 
 #content {
   margin: 1rem auto;
   padding: 0 1rem;
+  max-width: 1024px;
 }
+
+#org-div-home-and-up {
+  float: right;
+  padding-right: 1rem;
+}
+
 
 /* Heading Styles */
 h1 {
@@ -68,27 +75,31 @@ li {
   margin-bottom: 0.5em;
 }
 
-#org-div-home-and-up {
-  float: right;
-  padding-right: 1rem;
+th {
+  text-align: left;
+}
+
+td {
+  /* padding: 1em 2em; */
+}
+
+table td:first-child {
+  font-size: 1.333rem;
 }
 
 .lang-zh {
-  font-size: 1.625rem;
+  font-size: 1.67rem;
   color: #030303;
   display: block;
   font-family: "Ma Shan Zheng", cursive;
-  font-weight: 100;
+  font-weight: 200;
   font-style: normal;
 }
 
 .lang-en,
 .lang-pi {
   display: block;
-  /* opacity: 0; */
-  /* visibility: hidden; */
-  /* border-bottom: solid 1px red; */
-  /* background: blue; */
+  opacity: 0;
 }
 
 .lang-block p {
@@ -102,7 +113,7 @@ li {
 .lang-pi {
   color: #777;
   line-height: 1em;
-  font-size: 1rem;
+  font-size: 0.889rem;
 }
 
 .lang-block p:hover .lang-pi {
@@ -115,16 +126,8 @@ li {
   opacity: 1;
 }
 
-
 .lang-en-visible .lang-en,
 .lang-pi-visible .lang-pi {
   visibility: visible;
   opacity: 1;
-}
-
-th {
-  text-align: left;
-}
-td {
-  /* padding: 1em 2em; */
 }
