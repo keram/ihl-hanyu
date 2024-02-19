@@ -1,42 +1,109 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Ma+Shan+Zheng&display=swap');
+
+html {
+  font-size: 18px; /* You can adjust this value as needed */
+}
+
 body {
-  margin: 1em 2em;
+  margin: 0;
+  font-family: -apple-system, "Segoe UI", "Noto Sans", Helvetica, Arial, sans-serif;
+  font-size: 1.125rem;
+}
+
+#content {
+  margin: 1rem auto;
+  padding: 0 1rem;
+}
+
+/* Heading Styles */
+h1 {
+  font-size: 2em;
+  font-weight: bold;
+  margin-bottom: 0.5em;
+}
+
+h2 {
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-bottom: 0.5em;
+}
+
+h3 {
+  font-size: 1.2em;
+  font-weight: bold;
+  margin-bottom: 0.5em;
+}
+
+h4 {
+  font-size: 1em;
+  font-weight: bold;
+  margin-bottom: 0.5em;
+}
+
+/* Paragraph Styles */
+p {
+  font-size: 1em;
+  line-height: 1.5;
+  margin-bottom: 1em;
+}
+
+/* Code Styles */
+code {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 0.9em;
+  background-color: #f4f4f4;
+  padding: 0.2em 0.5em;
+  border-radius: 3px;
+}
+
+/* List Styles */
+ul, ol {
+  margin-bottom: 1em;
+  padding-left: 2em;
+}
+
+li {
+  margin-bottom: 0.5em;
+}
+
+#org-div-home-and-up {
+  float: right;
+  padding-right: 1rem;
 }
 
 .lang-zh {
-  font-size: 1.2em;
+  font-size: 1.625rem;
   color: #030303;
   display: block;
+  font-family: "Ma Shan Zheng", cursive;
+  font-weight: 100;
+  font-style: normal;
 }
 
 .lang-en,
 .lang-pi {
   display: block;
-  opacity: 0;
+  /* opacity: 0; */
   /* visibility: hidden; */
   /* border-bottom: solid 1px red; */
   /* background: blue; */
 }
 
 .lang-block p {
-  margin: 0 0 5px 0;
+  margin: 0;
 }
 
 .lang-en {
   color: #222;
-  padding-bottom: 5px;
 }
 
 .lang-pi {
-  color: #555;
-  font-size: 0.875em;
+  color: #777;
+  line-height: 1em;
+  font-size: 1rem;
 }
-
-/* .lang-en:before { */
-/*   content: "english"; */
-/* } */
-
 
 .lang-block p:hover .lang-pi {
   visibility: visible;
