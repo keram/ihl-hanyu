@@ -138,8 +138,8 @@ table td:first-child {
 
 .sentences p::before {
   position: absolute;
-  left: -1.2em;
-  padding-top: 0.675em;
+  left: -1.1em;
+  padding-top: 0.67em;
   color: #777;
 }
 
