@@ -138,9 +138,10 @@ table td:first-child {
 
 .sentences p::before {
   position: absolute;
-  left: -1.1em;
-  padding-top: 0.67em;
+  left: -0.875em;
+  padding-top: 0.625em;
   color: #777;
+  font-size: 0.889rem;
 }
 
 .sentences p:nth-child(odd)::before {
