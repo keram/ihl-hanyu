@@ -157,3 +157,14 @@ table td:first-child {
 /* a::before { */
 /*   content: '🔗'; */
 /* } */
+
+td.td-invisible {
+  opacity: 0;
+}
+
+.vocabulary td.td-invisible:hover {
+  border-bottom: dotted 2px green;
+  color: rgba(0, 0, 0, 0);
+  opacity: 0.5;
+  cursor: pointer;
+}
