@@ -13,7 +13,8 @@ body {
   color: #1b1c1d;
 }
 
-#content {
+#content,
+#postamble {
   margin: 1rem auto;
   padding: 0 1rem;
   max-width: 1024px;
