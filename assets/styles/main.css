@@ -10,6 +10,7 @@ body {
   margin: 0;
   font-family: -apple-system, "Segoe UI", "Noto Sans", Helvetica, Arial, sans-serif;
   /* font-size: 1.125rem; */
+  color: #1b1c1d;
 }
 
 #content {
@@ -162,9 +163,27 @@ td.td-invisible {
   opacity: 0;
 }
 
+.vocabulary th {
+  cursor: pointer;
+}
+
 .vocabulary td.td-invisible:hover {
   border-bottom: dotted 2px green;
   color: rgba(0, 0, 0, 0);
-  opacity: 0.5;
+  opacity: 0.75;
   cursor: pointer;
+}
+
+
+table .table-number {
+  display: none;
+}
+
+table caption {
+  /* text-align: left; */
+}
+
+.vocabulary table {
+  min-width: 14.222rem;
+  margin-bottom: 1rem;
 }
