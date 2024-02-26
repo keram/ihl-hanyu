@@ -188,3 +188,7 @@ table caption {
   min-width: 14.222rem;
   margin-bottom: 1rem;
 }
+
+table td {
+  padding: 3px 5px;
+}
