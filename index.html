@@ -10,6 +10,21 @@
 <link rel="stylesheet" type="text/css" href="assets/styles/main.css"/>
 <script type="text/javascript" src="assets/scripts/vendor/jquery-3.7.1.min.js"></script>
 <script type="text/javascript" src="assets/scripts/main.js"></script>
+<!-- Google tag (gtag.js) -->
+<script  type="text/javascript">
+function gtag(){dataLayer.push(arguments);}
+window.dataLayer = window.dataLayer || [];
+
+if (window.location.href.includes('keram.github.io')) {
+let script = document.createElement('script');
+script.src = 'https://www.googletagmanager.com/gtag/js?id=G-REP6MWW585';
+script.async = true;
+document.head.appendChild(script);
+
+gtag('js', new Date());
+gtag('config', 'G-REP6MWW585');
+}
+</script>
 </head>
 <body>
 <div id="content" class="content">
