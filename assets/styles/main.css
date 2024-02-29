@@ -23,6 +23,8 @@ body {
 #org-div-home-and-up {
   float: right;
   padding-right: 1rem;
+  position: sticky;
+  top: 1rem;
 }
 
 
