@@ -194,3 +194,18 @@ table caption {
 table td {
   padding: 3px 5px;
 }
+
+
+#speech-options div {
+  display: none;
+}
+
+#speech-options.not-supported div.no-support {
+  display: block;
+  font-size: 0.9em;
+  color: #777;
+}
+
+#speech-options.supported div.options {
+  display: block;
+}
