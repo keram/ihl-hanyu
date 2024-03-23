@@ -183,12 +183,18 @@ table .table-number {
 }
 
 table caption {
+  white-space: nowrap;
   /* text-align: left; */
 }
 
 .vocabulary table {
   min-width: 33%;
   margin-bottom: 1rem;
+}
+
+/* do not wrap Chinese  */
+.vocabulary tbody td:first-child {
+  white-space: nowrap;
 }
 
 table td {

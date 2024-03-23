@@ -161,7 +161,7 @@ function initSpeechFunctionality() {
     loadPersistedSpeechOptions();
 
     if (document.getElementById('speech-option').checked) {
-      addSpeechToWordsTables();
+      addSpeech();
     }
   }
 }
@@ -211,21 +211,26 @@ function loadPersistedSpeechOptions() {
   loadPersistedOption('voice-option');
 }
 
-function removeSpeechFromWordsTables() {
-  document.querySelectorAll('table .lang-zh')
+function removeSpeech() {
+  document.querySelectorAll('.speak-zh')
       .forEach(function(el) {
-        el.classList.remove('lang-zh');
+        el.classList.remove('speak-zh');
       });
 }
 
-function addSpeechToWordsTables() {
+function addSpeech() {
   document.querySelectorAll('.vocabulary table')
       .forEach(function(table) {
         const rows = table.querySelectorAll('tbody tr');
         for (const row of rows) {
           row.getElementsByTagName('td')[CHINESE_COL_INDEX]
-              .classList.add('lang-zh');
+              .classList.add('speak-zh');
         }
+      });
+
+  document.querySelectorAll('.lang-zh')
+      .forEach(function(el) {
+        el.classList.add('speak-zh');
       });
 }
 
@@ -266,7 +271,7 @@ function handleTdClick(td) {
   const row = td.closest('tr');
   const table = td.closest('table');
   const index = Array.from(
-      row.getElementsByTagName('td')
+      row.getElementsByTagName('td'),
   ).indexOf(td);
 
   // 0 - chinese, 1 - pinyin, 2 - english, 3+ - extra features
@@ -315,7 +320,7 @@ document.addEventListener('click', function(event) {
     return;
   }
 
-  const zh_text = target.closest('.lang-zh');
+  const zh_text = target.closest('.speak-zh');
   if (zh_text) {
     handleSpeakTextBlockClick(zh_text);
     event.stopPropagation();
@@ -350,8 +355,8 @@ document.addEventListener('change', (event) => {
   persistChange(event.target);
 
   if (document.getElementById('speech-option').checked) {
-    addSpeechToWordsTables();
+    addSpeech();
   } else {
-    removeSpeechFromWordsTables();
+    removeSpeech();
   }
 });
