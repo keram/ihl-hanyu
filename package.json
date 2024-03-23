@@ -1,0 +1,27 @@
+{
+  "name": "ihl-hanyu",
+  "version": "1.0.0",
+  "description": "Student notes and materials for Hanyu lessons",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/keram/ihl-hanyu.git"
+  },
+  "keywords": [
+    "hanyu",
+    "javascript"
+  ],
+  "author": "Marek",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/keram/ihl-hanyu/issues"
+  },
+  "homepage": "https://github.com/keram/ihl-hanyu",
+  "devDependencies": {
+    "eslint": "^8.57.0",
+    "eslint-config-google": "^0.14.0"
+  }
+}
