@@ -1,3 +1,5 @@
+const CHINESE_COL_INDEX = 0;
+
 function hideColumn(table, index) {
   for (const row of table.querySelectorAll('tbody tr')) {
     row.getElementsByTagName('td')[index].classList.add('td-invisible');
@@ -148,7 +150,6 @@ function initSpeechFunctionality() {
   if (chineseVoices().length === 0) {
     // hack as it takes while to get voices on Chrome and mobile :shrug:
     if (speech_init_attempt < 10) {
-      console.log(speech_init_attempt);
       speech_init_attempt = speech_init_attempt + 1;
       setTimeout(initSpeechFunctionality, 500);
     } else {
@@ -160,7 +161,7 @@ function initSpeechFunctionality() {
     loadPersistedSpeechOptions();
 
     if (document.getElementById('speech-option').checked) {
-      addSpeechColumnToWordsTables();
+      addSpeechToWordsTables();
     }
   }
 }
@@ -210,35 +211,22 @@ function loadPersistedSpeechOptions() {
   loadPersistedOption('voice-option');
 }
 
-function addSpeechColumnToTable(table) {
-  // const col_group = table.querySelector('colgroup');
-  const thead_tr = table.querySelector('thead tr');
-  const tbody_trs = table.querySelectorAll('tbody tr');
-
-  const speech_th = document.createElement('th');
-  speech_th.classList.add('speak-zh');
-  speech_th.appendChild(document.createTextNode(' - '));
-  speech_th.innerHTML = '<a href="#speech-options">options</a>';
-
-  thead_tr.appendChild(speech_th);
-  tbody_trs.forEach(function(tr) {
-    const speech_td = document.createElement('td');
-    speech_td.classList.add('speak-zh');
-    speech_td.appendChild(document.createTextNode('say'));
-    tr.appendChild(speech_td);
-  });
-}
-
-function removeSpeechColumnFromTables() {
-  document.querySelectorAll('table .speak-zh')
+function removeSpeechFromWordsTables() {
+  document.querySelectorAll('table .lang-zh')
       .forEach(function(el) {
-        el.remove();
-      } );
+        el.classList.remove('lang-zh');
+      });
 }
 
-function addSpeechColumnToWordsTables() {
+function addSpeechToWordsTables() {
   document.querySelectorAll('.vocabulary table')
-      .forEach(addSpeechColumnToTable);
+      .forEach(function(table) {
+        const rows = table.querySelectorAll('tbody tr');
+        for (const row of rows) {
+          row.getElementsByTagName('td')[CHINESE_COL_INDEX]
+              .classList.add('lang-zh');
+        }
+      });
 }
 
 function handleThClick(th) {
@@ -247,8 +235,9 @@ function handleThClick(th) {
   const index = Array.from(
       row.getElementsByTagName('th'),
   ).indexOf(th);
-  if (index > 2) {
-    return; // do not toggle the settings/speak column
+
+  if (index === CHINESE_COL_INDEX) {
+    return; // do not toggle the chinese column
   }
   const rows = table.querySelectorAll('tbody tr');
   th.classList.toggle('td-invisible');
@@ -277,14 +266,14 @@ function handleTdClick(td) {
   const row = td.closest('tr');
   const table = td.closest('table');
   const index = Array.from(
-      row.getElementsByTagName('td'),
+      row.getElementsByTagName('td')
   ).indexOf(td);
 
   // 0 - chinese, 1 - pinyin, 2 - english, 3+ - extra features
-  if (index > 2) {
-    speak(utteranceOptions(row.getElementsByTagName('td')[0]));
+  if (index === CHINESE_COL_INDEX) {
     return; // do not toggle the settings/speak column
   }
+
   const rows = table.querySelectorAll('tbody tr');
   td.classList.toggle('td-invisible');
   const td_visible = td.classList.contains('td-invisible');
@@ -326,6 +315,13 @@ document.addEventListener('click', function(event) {
     return;
   }
 
+  const zh_text = target.closest('.lang-zh');
+  if (zh_text) {
+    handleSpeakTextBlockClick(zh_text);
+    event.stopPropagation();
+    return;
+  }
+
   const th = target.closest('th');
   if (th) {
     handleThClick(th);
@@ -336,13 +332,6 @@ document.addEventListener('click', function(event) {
   const td = target.closest('td');
   if (td) {
     handleTdClick(td);
-    event.stopPropagation();
-    return;
-  }
-
-  const zh_text = target.closest('span.lang-zh');
-  if (zh_text) {
-    handleSpeakTextBlockClick(zh_text);
     event.stopPropagation();
     return;
   }
@@ -361,10 +350,8 @@ document.addEventListener('change', (event) => {
   persistChange(event.target);
 
   if (document.getElementById('speech-option').checked) {
-    if (document.querySelectorAll('table .speak-zh').length === 0) {
-      addSpeechColumnToWordsTables();
-    }
+    addSpeechToWordsTables();
   } else {
-    removeSpeechColumnFromTables();
+    removeSpeechFromWordsTables();
   }
 });
