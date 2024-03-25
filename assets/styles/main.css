@@ -149,13 +149,19 @@ table td:first-child {
 }
 
 .sentences p:nth-child(odd)::before {
-    /* border-bottom: 2px solid red; */
   content: 'A: ';
-
 }
 
 .sentences p:nth-child(even)::before {
   content: 'B: ';
+}
+
+.sentences .monologue p:nth-child(odd)::before {
+  content: '';
+}
+
+.sentences .monologue p:nth-child(even)::before {
+  content: '';
 }
 
 /* a::before { */
@@ -176,7 +182,6 @@ td.td-invisible {
   opacity: 0.75;
   cursor: pointer;
 }
-
 
 table .table-number {
   display: none;
