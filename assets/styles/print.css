@@ -1,0 +1,32 @@
+body {
+  /* width: 48%; */
+}
+
+#content {
+  margin: none;
+  font-size: 1.5rem;
+  /* width: 45%; */
+  width: 100%;
+}
+
+#content tbody td:first-child {
+  font-size: 2rem;
+}
+
+#content header,
+#postamble,
+#header,
+#org-div-home-and-up,
+#table-of-contents {
+  display: none;
+}
+
+h2 {
+  display: none;
+}
+
+table {
+  width: 48%;
+  float: left;
+  white-space: nowrap;
+}
