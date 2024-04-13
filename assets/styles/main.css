@@ -27,6 +27,41 @@ body {
   top: 1rem;
 }
 
+#org-div-home-and-up span {
+  display: none;
+}
+
+#org-div-home-and-up a {
+  width: 1.25em;
+  display: inline-block;
+  height: 1.25em;
+  line-height: 1.25em;
+  overflow: hidden;
+  position: relative;
+  top: 0.4em;
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0);
+}
+
+#org-div-home-and-up a:hover {
+  background: 2px lightblue;
+}
+
+#org-div-home-and-up a[accesskey="h"]::before {
+  content: '⬆️️';
+  color: #1b1c1d;
+}
+
+#org-div-home-and-up a[accesskey="H"]::before {
+  content: '🏠️';
+  position: relative;
+  color: #1b1c1d;
+}
+
+#org-div-home-and-up a[accesskey="d"]::before {
+  content: '⬇️';
+  color: #1b1c1d;
+}
 
 /* Heading Styles */
 h1 {
