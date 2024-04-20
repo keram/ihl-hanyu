@@ -172,17 +172,17 @@ td {
   display: block;
 }
 
-:lang("zh-Hans") {
+:lang("zh") {
   /* font-size: 1.25em; */
 }
 
-.font-long-cang :lang("zh-Hans") {
+.font-long-cang :lang("zh") {
   font-size: 1.25em;
   line-height: 1.25em;
 }
 
-.font-ma-shan-zheng :lang("zh-Hans"),
-.font-zcool-xiaowei :lang("zh-Hans") {
+.font-ma-shan-zheng :lang("zh"),
+.font-zcool-xiaowei :lang("zh") {
   font-size: 1.112em;
 }
 

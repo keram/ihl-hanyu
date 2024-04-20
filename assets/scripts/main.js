@@ -1,5 +1,3 @@
-const CHINESE_COL_INDEX = 0;
-
 function hideColumn(table, index) {
   for (const row of table.querySelectorAll('tbody tr')) {
     row.getElementsByTagName('td')[index].classList.add('td-invisible');
@@ -159,11 +157,12 @@ function initSpeechFunctionality() {
     form.classList.add('supported');
     populateVoiceList();
     loadPersistedSpeechOptions();
-
-    if (document.getElementById('speech-option').checked) {
-      addSpeech();
-    }
   }
+}
+
+function speechEnabled() {
+  return document.getElementById('speech-option') &&
+    document.getElementById('speech-option').checked
 }
 
 function persistChange(elm) {
@@ -211,29 +210,6 @@ function loadPersistedSpeechOptions() {
   loadPersistedOption('voice-option');
 }
 
-function removeSpeech() {
-  document.querySelectorAll('.speak-zh')
-      .forEach(function(el) {
-        el.classList.remove('speak-zh');
-      });
-}
-
-function addSpeech() {
-  document.querySelectorAll('.vocabulary table')
-      .forEach(function(table) {
-        const rows = table.querySelectorAll('tbody tr');
-        for (const row of rows) {
-          row.getElementsByTagName('td')[CHINESE_COL_INDEX]
-              .classList.add('speak-zh');
-        }
-      });
-
-  document.querySelectorAll('span[lang=zh-Hans]')
-      .forEach(function(el) {
-        el.classList.add('speak-zh');
-      });
-}
-
 function handleThClick(th) {
   const row = th.closest('tr');
   const table = th.closest('table');
@@ -241,9 +217,6 @@ function handleThClick(th) {
       row.getElementsByTagName('th'),
   ).indexOf(th);
 
-  if (index === CHINESE_COL_INDEX) {
-    return; // do not toggle the chinese column
-  }
   const rows = table.querySelectorAll('tbody tr');
   th.classList.toggle('td-invisible');
   const td_visible = th.classList.contains('td-invisible');
@@ -275,9 +248,6 @@ function handleTdClick(td) {
   ).indexOf(td);
 
   // 0 - chinese, 1 - pinyin, 2 - english, 3+ - extra features
-  if (index === CHINESE_COL_INDEX) {
-    return; // do not toggle the settings/speak column
-  }
 
   const rows = table.querySelectorAll('tbody tr');
   td.classList.toggle('td-invisible');
@@ -299,7 +269,9 @@ function handleTdClick(td) {
 }
 
 function handleSpeakTextBlockClick(elm) {
-  speak(utteranceOptions(elm));
+  if (speechEnabled()) { //  && elm.lang != 'zh-Latn'
+    speak(utteranceOptions(elm));
+  }
 }
 
 function initVocabularyPractice() {
@@ -319,7 +291,7 @@ function wrapChineseTextWithLangSpan(element) {
       const content = node.textContent;
       if (content.trim().length > 0 && chineseRegex.test(content)) {
         element.innerHTML = content.replace(
-          chineseRegex, '<span lang="zh-Hans">$1</span>'
+          chineseRegex, '<span lang="zh-cmn-Hans">$1</span>'
         );
       }
     } else if (node.nodeType === Node.ELEMENT_NODE && node.nodeName.toLowerCase() != 'span' ) {
@@ -338,9 +310,10 @@ document.addEventListener('click', function(event) {
     return;
   }
 
-  const zh_text = target.closest('.speak-zh');
-  if (zh_text) {
-    handleSpeakTextBlockClick(zh_text);
+  const zh_elm = target.closest('span[lang^="zh"]');
+
+  if (zh_elm) {
+    handleSpeakTextBlockClick(zh_elm);
     event.stopPropagation();
     return;
   }
@@ -360,10 +333,17 @@ document.addEventListener('click', function(event) {
   }
 });
 
+function sample(arr) {
+  const randomIndex = Math.floor(Math.random() * arr.length);
+
+  return arr[randomIndex];
+}
+
 document.addEventListener('DOMContentLoaded', (event) => {
-  // document.querySelector('body').classList.add('font-long-cang')
-  // document.querySelector('body').classList.add('font-ma-shan-zheng')
-  // document.querySelector('body').classList.add('font-zcool-xiaowei')
+  const fonts = ['font-default', 'font-long-cang', 'font-ma-shan-zheng', 'font-zcool-xiaowei'];
+
+  document.querySelector('body').classList.add(sample(fonts));
+
   wrapChineseTextWithLangSpan(document.getElementById('content'));
 
   initVocabularyPractice();
@@ -376,17 +356,4 @@ window.addEventListener('load', (event) => {
 
 document.addEventListener('change', (event) => {
   persistChange(event.target);
-
-  if (document.getElementById('speech-option').checked) {
-    addSpeech();
-  } else {
-    removeSpeech();
-  }
-
 });
-
-// // Test the function with the provided HTML document string
-// const htmlDocument = '<div>你好  - Hello</div><p>再见 - Goodbye</p>';
-// const modifiedHTML = wrapChineseCharactersInDocument(htmlDocument);
-
-// console.log(modifiedHTML);
