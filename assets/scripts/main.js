@@ -228,7 +228,7 @@ function addSpeech() {
         }
       });
 
-  document.querySelectorAll('.lang-zh')
+  document.querySelectorAll('span[lang=zh-Hans]')
       .forEach(function(el) {
         el.classList.add('speak-zh');
       });
@@ -310,6 +310,24 @@ function initVocabularyPractice() {
   }
 }
 
+function wrapChineseTextWithLangSpan(element) {
+  // Regular expression to match Chinese characters
+  const chineseRegex = /([\u4E00-\u9FA5]+)/g;
+
+  element.childNodes.forEach(node => {
+    if (node.nodeType === Node.TEXT_NODE) {
+      const content = node.textContent;
+      if (content.trim().length > 0 && chineseRegex.test(content)) {
+        element.innerHTML = content.replace(
+          chineseRegex, '<span lang="zh-Hans">$1</span>'
+        );
+      }
+    } else if (node.nodeType === Node.ELEMENT_NODE && node.nodeName.toLowerCase() != 'span' ) {
+      wrapChineseTextWithLangSpan(node);
+    }
+  });
+}
+
 document.addEventListener('click', function(event) {
   const target = event.target;
 
@@ -343,6 +361,11 @@ document.addEventListener('click', function(event) {
 });
 
 document.addEventListener('DOMContentLoaded', (event) => {
+  // document.querySelector('body').classList.add('font-long-cang')
+  // document.querySelector('body').classList.add('font-ma-shan-zheng')
+  // document.querySelector('body').classList.add('font-zcool-xiaowei')
+  wrapChineseTextWithLangSpan(document.getElementById('content'));
+
   initVocabularyPractice();
   initSpeechFunctionality();
 });
@@ -359,4 +382,11 @@ document.addEventListener('change', (event) => {
   } else {
     removeSpeech();
   }
+
 });
+
+// // Test the function with the provided HTML document string
+// const htmlDocument = '<div>你好  - Hello</div><p>再见 - Goodbye</p>';
+// const modifiedHTML = wrapChineseCharactersInDocument(htmlDocument);
+
+// console.log(modifiedHTML);
