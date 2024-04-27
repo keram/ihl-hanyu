@@ -11,22 +11,7 @@ body {
   padding: 0;
   font-family: -apple-system, "Segoe UI", "Noto Sans", Helvetica, Arial, sans-serif;
   color: #1b1c1d;
-}
-
-.font-ma-shan-zheng {
-  font-family: -apple-system, "Segoe UI", "Noto Sans", Helvetica, Arial, "Ma Shan Zheng", sans-serif;
-}
-
-.font-long-cang {
-  font-family: -apple-system, "Segoe UI", "Noto Sans", Helvetica, Arial, "Long Cang", sans-serif;
-}
-
-.font-zcool-xiaowei {
-  font-family: -apple-system, "Segoe UI", "Noto Sans", Helvetica, Arial, "ZCOOL XiaoWei", sans-serif;
-}
-
-span {
-    text-transform: full-size-kana;
+  background-color: #ffffee;
 }
 
 #content,
@@ -172,20 +157,43 @@ td {
   display: block;
 }
 
-:lang("zh") {
+/* zh-cmn-Hans-CN   Mandarin Chinese, Simplified script, as used in China */
+/* https://www.w3.org/International/articles/bcp47/ */
+:lang("zh-cmn"),
+:lang("zh-Hans"),
+:lang("zh-cmn-Hans") {
+  line-height: 1.25em;
+  text-transform: full-size-kana;
   /* font-size: 1.25em; */
 }
 
-.font-long-cang :lang("zh") {
-  font-size: 1.25em;
-  line-height: 1.25em;
+.font-ma-shan-zheng :lang("zh-cmn"),
+.font-ma-shan-zheng :lang("zh-Hans"),
+.font-ma-shan-zheng :lang("zh-cmn-Hans") {
+  font-family: "Ma Shan Zheng", cursive;
 }
 
-.font-ma-shan-zheng :lang("zh"),
-.font-zcool-xiaowei :lang("zh") {
+.font-zcool-xiaowei :lang("zh-cmn"),
+.font-zcool-xiaowei :lang("zh-Hans"),
+.font-zcool-xiaowei :lang("zh-cmn-Hans") {
+  font-family: "ZCOOL XiaoWei", cursive;
+}
+
+.font-long-cang :lang("zh-cmn"),
+.font-long-cang :lang("zh-Hans"),
+.font-long-cang :lang("zh-cmn-Hans") {
+  font-family: "Long Cang", cursive;
+  font-size: 1.25em;
+}
+
+.font-ma-shan-zheng :lang("zh-cmn"),
+.font-ma-shan-zheng :lang("zh-Hans"),
+.font-ma-shan-zheng :lang("zh-cmn-Hans"),
+.font-zcool-xiaowei :lang("zh-cmn"),
+.font-zcool-xiaowei :lang("zh-Hans"),
+.font-zcool-xiaowei :lang("zh-cmn-Hans") {
   font-size: 1.112em;
 }
-
 
 .lang-block p :lang("en"),
 .lang-block p :lang("zh-Latn") {
@@ -195,7 +203,7 @@ td {
 }
 
 .lang-block :lang("en") {
-  /* color: #222; */
+  color: #333;
 }
 
 .lang-block :lang("zh-Latn") {
