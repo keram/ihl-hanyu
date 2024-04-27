@@ -234,7 +234,7 @@ td {
 .sentences p:nth-child(odd) span:first-child,
 .sentences p:nth-child(even) span:first-child {
   position: relative;
-  left: -0.8em;
+  text-indent: -0.8em;
 }
 
 .sentences p:nth-child(odd) span:first-child::before {
@@ -246,7 +246,7 @@ td {
 }
 
 .sentences .monologue p span:first-child {
-  left: 0;
+  text-indent: 0;
 }
 
 .sentences .monologue p span:first-child::before {
