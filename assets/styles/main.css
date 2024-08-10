@@ -238,19 +238,19 @@ td {
   text-indent: -0.8em;
 }
 
-.sentences p:nth-child(odd) span:first-child::before {
+.sentences .lang-block p:nth-child(odd) span:first-child::before {
   content: 'A:';
 }
 
-.sentences p:nth-child(even) span:first-child::before {
+.sentences .lang-block p:nth-child(even) span:first-child::before {
   content: 'B:';
 }
 
-.sentences .monologue p span:first-child {
+.sentences .lang-block .monologue p span:first-child {
   text-indent: 0;
 }
 
-.sentences .monologue p span:first-child::before {
+.sentences .lang-block .monologue p span:first-child::before {
   content: '';
 }
 
