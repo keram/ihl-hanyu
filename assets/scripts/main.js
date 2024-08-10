@@ -340,14 +340,11 @@ function sample(arr) {
 }
 
 document.addEventListener('DOMContentLoaded', (event) => {
-  // const fonts = ['font-default', 'font-long-cang', 'font-ma-shan-zheng', 'font-zcool-xiaowei'];
+  const fonts = ['font-default', 'font-long-cang', 'font-ma-shan-zheng', 'font-zcool-xiaowei'];
 
-  // document.querySelector('body').classList.add(sample(fonts));
+  document.querySelector('body').classList.add(sample(fonts));
 
   wrapChineseTextWithLangSpan(document.getElementById('content'));
-
-  elm = document.getElementById('text-org496e461');
-  wrapChineseTextWithLangSpan(elm);
 
   initVocabularyPractice();
   initSpeechFunctionality();
