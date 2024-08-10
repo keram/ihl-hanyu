@@ -290,9 +290,9 @@ function wrapChineseTextWithLangSpan(element) {
     if (node.nodeType === Node.TEXT_NODE) {
       const content = node.textContent;
       if (content.trim().length > 0 && chineseRegex.test(content)) {
-        element.innerHTML = content.replace(
-          chineseRegex, '<span lang="zh-cmn-Hans">$1</span>'
-        );
+        const newContent = document.createElement('span');
+        newContent.innerHTML = content.replace(chineseRegex, '<span lang="zh-cmn-Hans">$1</span>');
+        node.replaceWith(...newContent.childNodes);
       }
     } else if (node.nodeType === Node.ELEMENT_NODE && node.nodeName.toLowerCase() != 'span' ) {
       wrapChineseTextWithLangSpan(node);
@@ -340,11 +340,14 @@ function sample(arr) {
 }
 
 document.addEventListener('DOMContentLoaded', (event) => {
-  const fonts = ['font-default', 'font-long-cang', 'font-ma-shan-zheng', 'font-zcool-xiaowei'];
+  // const fonts = ['font-default', 'font-long-cang', 'font-ma-shan-zheng', 'font-zcool-xiaowei'];
 
-  document.querySelector('body').classList.add(sample(fonts));
+  // document.querySelector('body').classList.add(sample(fonts));
 
   wrapChineseTextWithLangSpan(document.getElementById('content'));
+
+  elm = document.getElementById('text-org496e461');
+  wrapChineseTextWithLangSpan(elm);
 
   initVocabularyPractice();
   initSpeechFunctionality();
