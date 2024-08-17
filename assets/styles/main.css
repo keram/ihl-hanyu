@@ -246,11 +246,11 @@ td {
   content: 'B:';
 }
 
-.sentences .lang-block .monologue p span:first-child {
+.sentences .lang-block.monologue p span:first-child {
   text-indent: 0;
 }
 
-.sentences .lang-block .monologue p span:first-child::before {
+.sentences .lang-block.monologue p span:first-child::before {
   content: '';
 }
 
