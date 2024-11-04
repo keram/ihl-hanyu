@@ -173,55 +173,67 @@ td {
   font-family: "Ma Shan Zheng", cursive;
 }
 
-.font-zcool-xiaowei :lang("zh-cmn"),
-.font-zcool-xiaowei :lang("zh-Hans"),
-.font-zcool-xiaowei :lang("zh-cmn-Hans") {
+.font-zcool-xiaowei :lang(zh-cmn),
+.font-zcool-xiaowei :lang(zh-Hans),
+.font-zcool-xiaowei :lang(zh-cmn-Hans) {
   font-family: "ZCOOL XiaoWei", cursive;
 }
 
-.font-long-cang :lang("zh-cmn"),
-.font-long-cang :lang("zh-Hans"),
-.font-long-cang :lang("zh-cmn-Hans") {
+.font-long-cang :lang(zh-cmn),
+.font-long-cang :lang(zh-Hans),
+.font-long-cang :lang(zh-cmn-Hans) {
   font-family: "Long Cang", cursive;
   font-size: 1.25em;
 }
 
-.font-ma-shan-zheng :lang("zh-cmn"),
-.font-ma-shan-zheng :lang("zh-Hans"),
-.font-ma-shan-zheng :lang("zh-cmn-Hans"),
-.font-zcool-xiaowei :lang("zh-cmn"),
-.font-zcool-xiaowei :lang("zh-Hans"),
-.font-zcool-xiaowei :lang("zh-cmn-Hans") {
+.font-ma-shan-zheng :lang(zh-cmn),
+.font-ma-shan-zheng :lang(zh-Hans),
+.font-ma-shan-zheng :lang(zh-cmn-Hans),
+.font-zcool-xiaowei :lang(zh-cmn),
+.font-zcool-xiaowei :lang(zh-Hans),
+.font-zcool-xiaowei :lang(zh-cmn-Hans) {
   font-size: 1.112em;
 }
 
-.lang-block p :lang("en"),
-.lang-block p :lang("zh-Latn") {
+.lang-block p :lang(en) {
   opacity: 0;
   line-height: 1.25em;
   font-size: 0.889rem;
-}
-
-.lang-block :lang("en") {
   color: #333;
 }
 
-.lang-block :lang("zh-Latn") {
+/* *:lang("en"), */
+/* *:lang(EN), */
+/* *:lang(EN-GB), */
+/* *:lang("en-US") { */
+/*   border: solid 1px red!; */
+/*   opacity: 1; */
+/* } */
+
+.lang-block p :lang(zh-Latn) {
+  opacity: 0;
+  line-height: 1.25em;
+  font-size: 0.889rem;
   color: #888;
+
 }
 
-.lang-block p:hover :lang("zh-Latn") {
+.lang-block p:hover :lang(zh-Latn) {
   visibility: visible;
   opacity: 1;
 }
 
-.lang-block :lang("en"):hover {
+.lang-block :lang(en):hover {
   visibility: visible;
   opacity: 1;
 }
 
-.lang-en-visible :lang("en"),
-.lang-pi-visible :lang("zh-Latn") {
+.lang-en-visible :lang(en) {
+  visibility: visible;
+  opacity: 1;
+}
+
+.lang-pi-visible :lang(zh-Latn) {
   visibility: visible;
   opacity: 1;
 }
