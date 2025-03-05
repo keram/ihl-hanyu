@@ -85,9 +85,14 @@ h3 {
 }
 
 h4 {
-  font-size: 1em;
+  font
+-size: 1em;
   font-weight: bold;
   margin-bottom: 0.5em;
+}
+
+a:hover {
+  text-decoration: none;
 }
 
 /* Paragraph Styles */
@@ -115,6 +120,18 @@ ul, ol {
 li {
   margin-bottom: 0.5em;
 }
+
+rt {
+  color: #777;
+  font-weight: normal;
+  font-size: max(0.65em, 12px);
+}
+
+rtc {
+  font-weight: normal;
+  font-size: max(0.6em, 12px);
+}
+
 
 th {
   text-align: left;
