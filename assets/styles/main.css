@@ -85,8 +85,7 @@ h3 {
 }
 
 h4 {
-  font
--size: 1em;
+  font-size: 1em;
   font-weight: bold;
   margin-bottom: 0.5em;
 }
@@ -121,15 +120,15 @@ li {
   margin-bottom: 0.5em;
 }
 
-rt {
+rt, rp {
   color: #777;
   font-weight: normal;
-  font-size: max(0.65em, 12px);
+  font-size: max(0.65em, 14px);
 }
 
 rtc {
   font-weight: normal;
-  font-size: max(0.6em, 12px);
+  font-size: max(0.6em, 13px);
 }
 
 
