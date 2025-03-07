@@ -123,12 +123,12 @@ li {
 rt, rp {
   color: #777;
   font-weight: normal;
-  font-size: max(0.65em, 14px);
+  font-size: max(0.65em, 15px);
 }
 
 rtc {
   font-weight: normal;
-  font-size: max(0.6em, 13px);
+  font-size: max(0.6em, 14px);
 }
 
 
@@ -166,7 +166,7 @@ td {
 }
 
 .lang-block p {
-  margin: 0;
+  /* margin: 0; */
 }
 
 .lang-block p span {
@@ -229,9 +229,9 @@ td {
 .lang-block p :lang(zh-Latn) {
   opacity: 0;
   line-height: 1.25em;
-  font-size: 0.889rem;
+  font-size: ;
+  font-size: max(0.778rem, 16px);
   color: #888;
-
 }
 
 .lang-block p:hover :lang(zh-Latn) {
