@@ -169,8 +169,17 @@ td {
   /* margin: 0; */
 }
 
-.lang-block p span {
+.lang-block p span.utterance {
   display: block;
+}
+
+.lang-block p .speaker,
+.lang-block p .separator {
+  font-size: 0.85em;
+}
+
+.lang-block p:has(span.speaker) {
+  text-indent: -2.5em;
 }
 
 /* zh-cmn-Hans-CN   Mandarin Chinese, Simplified script, as used in China */
@@ -254,33 +263,33 @@ td {
   opacity: 1;
 }
 
-.sentences p span::before {
-  color: #777;
-  font-size: 0.778rem;
-  font-family: -apple-system, "Segoe UI", "Noto Sans", Helvetica, Arial, sans-serif;
-}
+/* .sentences p span::before { */
+/*   color: #777; */
+/*   font-size: 0.778rem; */
+/*   font-family: -apple-system, "Segoe UI", "Noto Sans", Helvetica, Arial, sans-serif; */
+/* } */
 
-.sentences p:nth-child(odd) span:first-child,
-.sentences p:nth-child(even) span:first-child {
-  position: relative;
-  text-indent: -0.8em;
-}
+/* .sentences p:nth-child(odd) span:first-child, */
+/* .sentences p:nth-child(even) span:first-child { */
+/*   position: relative; */
+/*   text-indent: -0.8em; */
+/* } */
 
-.sentences .lang-block p:nth-child(odd) span:first-child::before {
-  content: 'A:';
-}
+/* .sentences .lang-block p:nth-child(odd) span:first-child::before { */
+/*   content: 'A:'; */
+/* } */
 
-.sentences .lang-block p:nth-child(even) span:first-child::before {
-  content: 'B:';
-}
+/* .sentences .lang-block p:nth-child(even) span:first-child::before { */
+/*   content: 'B:'; */
+/* } */
 
-.sentences .lang-block.monologue p span:first-child {
-  text-indent: 0;
-}
+/* .sentences .lang-block.monologue p span:first-child { */
+/*   text-indent: 0; */
+/* } */
 
-.sentences .lang-block.monologue p span:first-child::before {
-  content: '';
-}
+/* .sentences .lang-block.monologue p span:first-child::before { */
+/*   content: ''; */
+/* } */
 
 table .table-number {
   display: none;
