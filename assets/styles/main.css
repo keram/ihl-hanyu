@@ -221,37 +221,34 @@ td {
 }
 
 .lang-block p :lang(en) {
-  opacity: 0;
-  line-height: 1.25em;
-  font-size: 0.889rem;
+  line-height: 1.15em;
+  font-size: max(0.889rem, 16px);
   color: #333;
 }
 
-/* *:lang("en"), */
-/* *:lang(EN), */
-/* *:lang(EN-GB), */
-/* *:lang("en-US") { */
-/*   border: solid 1px red!; */
-/*   opacity: 1; */
-/* } */
-
 .lang-block p :lang(zh-Latn) {
-  opacity: 0;
-  line-height: 1.25em;
-  font-size: ;
+  line-height: 1.15em;
   font-size: max(0.778rem, 16px);
   color: #888;
 }
 
-.lang-block p:hover :lang(zh-Latn) {
+.lang-block p span.utterance:not(:first-of-type) {
+  opacity: 0;
+}
+
+.lang-block p:hover span:nth-of-type(2) {
   visibility: visible;
   opacity: 1;
 }
 
-.lang-block :lang(en):hover {
+.lang-block p:hover span:nth-of-type(3):hover {
   visibility: visible;
   opacity: 1;
 }
+
+/* .lang-block p span:first-child { */
+/*   border: solid 1px; */
+/* } */
 
 .lang-en-visible :lang(en) {
   visibility: visible;
