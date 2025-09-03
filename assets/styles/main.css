@@ -318,6 +318,8 @@ table th {
 }
 
 .vocabulary td {
+  max-width: 16em;
+  min-width: 4em;
 }
 
 /* do not wrap Chinese  */
