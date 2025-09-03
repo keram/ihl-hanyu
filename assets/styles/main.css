@@ -120,10 +120,25 @@ li {
   margin-bottom: 0.5em;
 }
 
+ruby {
+  white-space: nowrap;
+  ruby-align: start;
+  text-align: left;
+}
+
+rt, rtc {
+  line-height: 1;
+}
+
+rp {
+    display: none;
+}
+
 rt, rp {
   color: #777;
   font-weight: normal;
   font-size: max(0.65em, 15px);
+  ruby-align: start;
 }
 
 rtc {
@@ -137,29 +152,11 @@ th {
 }
 
 td {
-  /* padding: 1em 2em; */
 }
 
 .vocabulary table td:first-child {
   /* font-size: 1.333rem; */
 }
-
-/* .font-ma-shan-zheng .lang-zh { */
-/*   font-family: "Ma Shan Zheng", cursive; */
-/* } */
-
-/* .font-long-cang .lang-zh { */
-/*   font-family: "Long Cang", cursive; */
-/* } */
-
-/* .font-zcool-xiaowei .lang-zh { */
-/*   font-family: "ZCOOL XiaoWei", cursive; */
-/* } */
-
-/* .font-zhi-mang-xing .lang-zh { */
-/*   font-family: "Zhi Mang Xing", cursive; */
-/* } */
-
 
 .lang-block {
   position: relative;
