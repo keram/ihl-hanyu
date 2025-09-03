@@ -288,6 +288,10 @@ td {
 /*   content: ''; */
 /* } */
 
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
 table .table-number {
   display: none;
 }
@@ -298,7 +302,13 @@ table caption {
 }
 
 table td {
+  margin: 0;
   padding: 3px 5px;
+}
+
+table th {
+  margin: 0;
+  padding: 0 5px;
 }
 
 .vocabulary table {
@@ -308,6 +318,9 @@ table td {
 
 .vocabulary th {
   cursor: pointer;
+}
+
+.vocabulary td {
 }
 
 /* do not wrap Chinese  */
