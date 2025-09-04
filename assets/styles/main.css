@@ -135,7 +135,7 @@ rp {
 }
 
 rt, rp {
-  color: #777;
+  color: #888;
   font-weight: normal;
   font-size: max(0.65em, 15px);
   ruby-align: start;
@@ -144,6 +144,7 @@ rt, rp {
 rtc {
   font-weight: normal;
   font-size: max(0.6em, 14px);
+  color: #444;
 }
 
 
@@ -220,7 +221,7 @@ td {
 .lang-block p :lang(en) {
   line-height: 1.15em;
   font-size: max(0.889rem, 16px);
-  color: #333;
+  color: #444;
 }
 
 .lang-block p :lang(zh-Latn) {
