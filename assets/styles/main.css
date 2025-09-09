@@ -177,17 +177,17 @@ td {
 }
 
 .lang-block p:has(span.speaker) {
-  /* text-indent: -2.5em; */
-  position: relative;
-  left: -3em;
+  text-indent: -1em;
+  /* position: relative; */
+  /* left: -3em; */
 }
 
 .lang-block p .speaker {
-  display: inline-block;
-  direction: rtl;
-  white-space: nowrap;
-  max-width: 3em;
-  text-align: right;
+  /* display: inline-block; */
+  /* direction: rtl; */
+  /* white-space: nowrap; */
+  /* max-width: 3em; */
+  /* text-align: right; */
 }
 
 /* zh-cmn-Hans-CN   Mandarin Chinese, Simplified script, as used in China */
