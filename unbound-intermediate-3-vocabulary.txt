@@ -1,0 +1,114 @@
+#separator:,
+#html:false
+#notetype column:1
+#deck column:2
+Chinese Vocab,Mandarin Intermediate 3 Intensive,rèshēn,热身,,warm up,verb
+Chinese Vocab,Mandarin Intermediate 3 Intensive,shī,诗,,poem,noun
+Chinese Vocab,Mandarin Intermediate 3 Intensive,shīrén,诗人,,poet,noun
+Chinese Vocab,Mandarin Intermediate 3 Intensive,cháo,朝,,dynasty,noun
+Chinese Vocab,Mandarin Intermediate 3 Intensive,táng cháo,唐朝,,Tang Dynasty,proper noun
+Chinese Vocab,Mandarin Intermediate 3 Intensive,táng shī,唐诗,,Tang Dynasty poems,proper noun
+Chinese Vocab,Mandarin Intermediate 3 Intensive,Lǐ Bái,李白,,Li Bai (poet) T.D.,proper noun
+Chinese Vocab,Mandarin Intermediate 3 Intensive,jiāo,教,,teach,verb
+Chinese Vocab,Mandarin Intermediate 3 Intensive,míngbái,明白,,understand,verb
+Chinese Vocab,Mandarin Intermediate 3 Intensive,shēnyè,深夜,,late night,noun
+Chinese Vocab,Mandarin Intermediate 3 Intensive,chuáng biān,床边,,bedside,noun
+Chinese Vocab,Mandarin Intermediate 3 Intensive,jié shuāng,结霜,,frost,"noun, verb"
+Chinese Vocab,Mandarin Intermediate 3 Intensive,táitóu,抬头,,raise head,verb
+Chinese Vocab,Mandarin Intermediate 3 Intensive,tái,抬,,to raise/lift,verb
+Chinese Vocab,Mandarin Intermediate 3 Intensive,tímù,题目,,topic,noun
+Chinese Vocab,Mandarin Intermediate 3 Intensive,sī niàn,思念,,miss (formal),"verb, noun"
+Chinese Vocab,Mandarin Intermediate 3 Intensive,xiǎng,想,,miss (colloquial),verb
+Chinese Vocab,Mandarin Intermediate 3 Intensive,gùxiāng,故乡,,hometown (formal),noun
+Chinese Vocab,Mandarin Intermediate 3 Intensive,níngjìng,宁静,,"quiet, tranquil (formal)","adjective, noun"
+Chinese Vocab,Mandarin Intermediate 3 Intensive,yǐwéi,以为,,"thought wrongly, what follows",verb
+Chinese Vocab,Mandarin Intermediate 3 Intensive,fāxiàn,发现,,to discover/realise,verb
+Chinese Vocab,Mandarin Intermediate 3 Intensive,zìshù,字数,,word count,noun
+Chinese Vocab,Mandarin Intermediate 3 Intensive,chúle,除了,,apart from,preposition
+Chinese Vocab,Mandarin Intermediate 3 Intensive,měi(yī)jù,每（一）句,,every sentence,determiner
+Chinese Vocab,Mandarin Intermediate 3 Intensive,zuìhòu,最后,,finally/lastly,adverb
+Chinese Vocab,Mandarin Intermediate 3 Intensive,gòngtóng diǎn,共同点,,commonalities,noun
+Chinese Vocab,Mandarin Intermediate 3 Intensive,yāyùn,押韵,,to rhyme,verb
+Chinese Vocab,Mandarin Intermediate 3 Intensive,hǎo jǐ wàn,好几万,,tens of thousand,numeral phrase
+Chinese Vocab,Mandarin Intermediate 3 Intensive,hǎohao xué,好好学,,study hard,verb phrase
+Chinese Vocab,Mandarin Intermediate 3 Intensive,chà bù duō,差不多,,"similar, almost",adjective/adverb
+Chinese Vocab,Mandarin Intermediate 3 Intensive,hǎohao xué,好好学,,study hard,adverbial phrase
+Chinese Vocab,Mandarin Intermediate 3 Intensive,tōngfēng,通风,,ventilated,verb
+Chinese Vocab,Mandarin Intermediate 3 Intensive,duìmiàn,对面,,opposite,noun
+Chinese Vocab,Mandarin Intermediate 3 Intensive,zhōngjiān,中间,,middle,noun
+Chinese Vocab,Mandarin Intermediate 3 Intensive,zhǎngbèi,长辈,,elder,noun
+Chinese Vocab,Mandarin Intermediate 3 Intensive,wǎnbèi,晚辈,,junior,noun
+Chinese Vocab,Mandarin Intermediate 3 Intensive,liáotiān,聊天,,chat,verb
+Chinese Vocab,Mandarin Intermediate 3 Intensive,wēnnuǎn,温暖,,warm (emotionaly),adjective
+Chinese Vocab,Mandarin Intermediate 3 Intensive,duīfang,堆放,,pile up/put,verb
+Chinese Vocab,Mandarin Intermediate 3 Intensive,duī,堆,,to stack,verb
+Chinese Vocab,Mandarin Intermediate 3 Intensive,fàng,放,,to put,verb
+Chinese Vocab,Mandarin Intermediate 3 Intensive,záwù,杂物,,miscellaneous things,noun
+Chinese Vocab,Mandarin Intermediate 3 Intensive,zhèngfáng,正房,,main room,noun
+Chinese Vocab,Mandarin Intermediate 3 Intensive,xiǎngfáng,厢房,,wing room,noun
+Chinese Vocab,Mandarin Intermediate 3 Intensive,chuāng,窗,,window,noun
+Chinese Vocab,Mandarin Intermediate 3 Intensive,yuànzi,院子,,courtyard,noun
+Chinese Vocab,Mandarin Intermediate 3 Intensive,cháo,朝,,facing,verb
+Chinese Vocab,Mandarin Intermediate 3 Intensive,xiàng,向,,towards,preposition
+Chinese Vocab,Mandarin Intermediate 3 Intensive,gēn...yīqǐ,跟...一起,,together with,prepositional phrase
+Chinese Vocab,Mandarin Intermediate 3 Intensive,tèbié,特别,,especially,adverb
+Chinese Vocab,Mandarin Intermediate 3 Intensive,rìchū,日出,,sunrise,noun
+Chinese Vocab,Mandarin Intermediate 3 Intensive,rìluò,日落,,sunset,noun
+Chinese Vocab,Mandarin Intermediate 3 Intensive,zhàopiàn,照片,,photo,noun
+Chinese Vocab,Mandarin Intermediate 3 Intensive,zhāng,张,,mw. for photos,measure word
+Chinese Vocab,Mandarin Intermediate 3 Intensive,hǎowán,好玩,,fun,adjective
+Chinese Vocab,Mandarin Intermediate 3 Intensive,bàng,棒,,wonderful,adjective
+Chinese Vocab,Mandarin Intermediate 3 Intensive,zìjǐ,自己,,self,pronoun
+Chinese Vocab,Mandarin Intermediate 3 Intensive,jíle,极了,,extremely,adverbial phrase
+Chinese Vocab,Mandarin Intermediate 3 Intensive,shàolínsì,少林寺,,Shaolin Temple,noun
+Chinese Vocab,Mandarin Intermediate 3 Intensive,juédé,觉得,,"think of, opinion, feeling",verb
+Chinese Vocab,Mandarin Intermediate 3 Intensive,xiǎng,想,,"suppose, speculate, to want",verb
+Chinese Vocab,Mandarin Intermediate 3 Intensive,yīnggāi,应该,,"should, ought to",auxiliary verb
+Chinese Vocab,Mandarin Intermediate 3 Intensive,dàliàng,大量,,"great amount, quantity",noun
+Chinese Vocab,Mandarin Intermediate 3 Intensive,huángtǔ,黄土,,"loess, yellow earth",noun
+Chinese Vocab,Mandarin Intermediate 3 Intensive,liú,流,,to flow,verb
+Chinese Vocab,Mandarin Intermediate 3 Intensive,biànchéng,变成,,"to become, to turn into",verb
+Chinese Vocab,Mandarin Intermediate 3 Intensive,yǒu jīhuì de huà,有机会的话,,If you have the chance,phrase
+Chinese Vocab,Mandarin Intermediate 3 Intensive,zhǎi,窄,,narrow,adjective
+Chinese Vocab,Mandarin Intermediate 3 Intensive,kuān,宽,,wide,adjective
+Chinese Vocab,Mandarin Intermediate 3 Intensive,féi,肥,,fat,adjective
+Chinese Vocab,Mandarin Intermediate 3 Intensive,chuān,穿,,wear (clothes),verb
+Chinese Vocab,Mandarin Intermediate 3 Intensive,dài,戴,,wear (accessory),verb
+Chinese Vocab,Mandarin Intermediate 3 Intensive,mínzú,民族,,ethnic group,noun
+Chinese Vocab,Mandarin Intermediate 3 Intensive,shǎoshù mínzú,少数民族,,minority,noun phrase
+Chinese Vocab,Mandarin Intermediate 3 Intensive,shǎoshù,少数,,few,adjective
+Chinese Vocab,Mandarin Intermediate 3 Intensive,xiǎohuǒzi,小伙子,,teenage boy (old fashioned),noun
+Chinese Vocab,Mandarin Intermediate 3 Intensive,gūniáng,姑娘,,teenage girl (old fashioned),noun
+Chinese Vocab,Mandarin Intermediate 3 Intensive,zǒngshì,总是,,always,adverb
+Chinese Vocab,Mandarin Intermediate 3 Intensive,tǐng,挺,,quite,adverb
+Chinese Vocab,Mandarin Intermediate 3 Intensive,fúshì,服饰,,clothes (formal),noun
+Chinese Vocab,Mandarin Intermediate 3 Intensive,yīfú,衣服,,clothes (colloquial),noun
+Chinese Vocab,Mandarin Intermediate 3 Intensive,shàngyī,上衣,,jacket,noun
+Chinese Vocab,Mandarin Intermediate 3 Intensive,xiùzi,袖子,,sleeves,noun
+Chinese Vocab,Mandarin Intermediate 3 Intensive,màozi,帽子,,hat,noun
+Chinese Vocab,Mandarin Intermediate 3 Intensive,lǐngzi,领子,,collar,noun
+Chinese Vocab,Mandarin Intermediate 3 Intensive,yánsè,颜色,,colour,noun
+Chinese Vocab,Mandarin Intermediate 3 Intensive,chángduǎn,长短,,length,noun
+Chinese Vocab,Mandarin Intermediate 3 Intensive,páo,袍,,robe,noun
+Chinese Vocab,Mandarin Intermediate 3 Intensive,shuìpáo,睡袍,,nightgown,noun
+Chinese Vocab,Mandarin Intermediate 3 Intensive,lóngpáo,龙袍,,dragon robe,noun
+Chinese Vocab,Mandarin Intermediate 3 Intensive,diàn,店,,shop,noun
+Chinese Vocab,Mandarin Intermediate 3 Intensive,jiā,家,,m.w for shops,noun
+Chinese Vocab,Mandarin Intermediate 3 Intensive,shāngdiàn,商店,,shop,noun
+Chinese Vocab,Mandarin Intermediate 3 Intensive,yījiā shǒushì diàn,一家首饰店,,A jewelry shop,phrase
+Chinese Vocab,Mandarin Intermediate 3 Intensive,yījiā fúzhuāng diàn,一家服装店,,A clothing shop,phrase
+Chinese Vocab,Mandarin Intermediate 3 Intensive,yījiā miànbāo diàn,一家面包店,,A bakery,phrase
+Chinese Vocab,Mandarin Intermediate 3 Intensive,lǎobǎn,老板,,boss,noun
+Chinese Vocab,Mandarin Intermediate 3 Intensive,shǒuhuò,收获,,"results, harvest",noun
+Chinese Vocab,Mandarin Intermediate 3 Intensive,rénkǒu,人口,,population,noun
+Chinese Vocab,Mandarin Intermediate 3 Intensive,fǎyīn,发音,,pronunciation (to emit sound),"verb, noun"
+Chinese Vocab,Mandarin Intermediate 3 Intensive,dúyīn,读音,,pronunciation (the sound when reading),"verb, noun"
+Chinese Vocab,Mandarin Intermediate 3 Intensive,xiùhuā de shàngyī,绣花的上衣,,embroidered top,phrase
+Chinese Vocab,Mandarin Intermediate 3 Intensive,féidà de kùzi,肥大的裤子,,baggy pants,phrase
+Chinese Vocab,Mandarin Intermediate 3 Intensive,yínshǒushì,银首饰,,silver jewelry,phrase
+Chinese Vocab,Mandarin Intermediate 3 Intensive,dài ní mào,戴呢帽,,wearing a felt hat,phrase
+Chinese Vocab,Mandarin Intermediate 3 Intensive,"xì yāo dài, xié dài",系腰带、鞋带,,"belt, shoelaces",phrase
+Chinese Vocab,Mandarin Intermediate 3 Intensive,chuān zhǎng xuē,穿长靴,,wear boots,phrase
+Chinese Vocab,Mandarin Intermediate 3 Intensive,duǎn xuē,短靴,,short boots,noun
+Chinese Vocab,Mandarin Intermediate 3 Intensive,bèixīn,背心,,vest/waistcoat,noun
+Chinese Vocab,Mandarin Intermediate 3 Intensive,,,,,
