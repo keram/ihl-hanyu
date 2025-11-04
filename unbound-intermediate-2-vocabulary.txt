@@ -2,19 +2,19 @@
 #html:false
 #notetype column:1
 #deck column:2
-Chinese Vocab,Languages::Chinese::Mandarin Intermediate 2,gěi...dǎ diǎnhuà,给  打电话,,give ... a call,phrase
+Chinese Vocab,Languages::Chinese::Mandarin Intermediate 2,gěi...dǎ diǎnhuà,给…打电话,,give ... a call,phrase
 Chinese Vocab,Languages::Chinese::Mandarin Intermediate 2,bùyòngle,不用了,,no need,phrase
 Chinese Vocab,Languages::Chinese::Mandarin Intermediate 2,yǒukòng,有空,,have a free time,phrase
 Chinese Vocab,Languages::Chinese::Mandarin Intermediate 2,hējiǔ,喝酒,,drink (alcohol),verb
 Chinese Vocab,Languages::Chinese::Mandarin Intermediate 2,píngcháng,平常,,normally,noun
 Chinese Vocab,Languages::Chinese::Mandarin Intermediate 2,píngcháng,平常,,common,adjective
-Chinese Vocab,Languages::Chinese::Mandarin Intermediate 2,T-xù(shàn),T－恤（衫）,,T-shirt,noun
+Chinese Vocab,Languages::Chinese::Mandarin Intermediate 2,T xù(shàn),T－恤（衫）,,T-shirt,noun
 Chinese Vocab,Languages::Chinese::Mandarin Intermediate 2,shuǐguǒ,水果,,fruit,noun
 Chinese Vocab,Languages::Chinese::Mandarin Intermediate 2,guǒzhī,果汁,,juice,noun
 Chinese Vocab,Languages::Chinese::Mandarin Intermediate 2,héshì,合适,,"appropriate, suitable",adjective
 Chinese Vocab,Languages::Chinese::Mandarin Intermediate 2,xíguàn,习惯,,used to,verb
 Chinese Vocab,Languages::Chinese::Mandarin Intermediate 2,xíguàn,习惯,,habit,noun
-Chinese Vocab,Languages::Chinese::Mandarin Intermediate 2,nàhǎo...,那好。。,,alright then...,phrase
+Chinese Vocab,Languages::Chinese::Mandarin Intermediate 2,nàhǎo...,那好…,,alright then...,phrase
 Chinese Vocab,Languages::Chinese::Mandarin Intermediate 2,jiù zhèyàng ba,就这样吧,,let's do this then,phrase
 Chinese Vocab,Languages::Chinese::Mandarin Intermediate 2,jiào,叫,,asks/tells (command),verb
 Chinese Vocab,Languages::Chinese::Mandarin Intermediate 2,gàosù,告诉,,tells (informs),verb
@@ -22,7 +22,7 @@ Chinese Vocab,Languages::Chinese::Mandarin Intermediate 2,shuō,说,,says (parap
 Chinese Vocab,Languages::Chinese::Mandarin Intermediate 2,yǐwéi,以为,,thought wrongly,phrase
 Chinese Vocab,Languages::Chinese::Mandarin Intermediate 2,máotáojiǔ,茅台酒,,Moutai (chinese alcohol),noun
 Chinese Vocab,Languages::Chinese::Mandarin Intermediate 2,zhěng,整,,whole,adjective
-Chinese Vocab,Languages::Chinese::Mandarin Intermediate 2,xǐzǎo,洗澡,,shower,noun
+Chinese Vocab,Languages::Chinese::Mandarin Intermediate 2,xǐzǎo,洗澡,,to take shower,verb
 Chinese Vocab,Languages::Chinese::Mandarin Intermediate 2,gěi,给,,for/to,preposition
 Chinese Vocab,Languages::Chinese::Mandarin Intermediate 2,bèifen,辈分,,seniority in the family,noun
 Chinese Vocab,Languages::Chinese::Mandarin Intermediate 2,xiǎngtóng,相同,,same,adjective
@@ -42,38 +42,38 @@ Chinese Vocab,Languages::Chinese::Mandarin Intermediate 2,shíjiān bù zǎole,�
 Chinese Vocab,Languages::Chinese::Mandarin Intermediate 2,nà hǎo ba,那好吧,,Alright then,phrase
 Chinese Vocab,Languages::Chinese::Mandarin Intermediate 2,màn zǒu a,慢走啊,,get home safe,phrase
 Chinese Vocab,Languages::Chinese::Mandarin Intermediate 2,niánlíng,年龄,,age,noun
-Chinese Vocab,Languages::Chinese::Mandarin Intermediate 2,nǎinai,奶奶,,grandma,noun
-Chinese Vocab,Languages::Chinese::Mandarin Intermediate 2,yéye,爷爷,,grandpa,noun
-Chinese Vocab,Languages::Chinese::Mandarin Intermediate 2,bófù,伯父,,older brother,noun
-Chinese Vocab,Languages::Chinese::Mandarin Intermediate 2,bómǔ,伯母,,older brother's wife,noun
-Chinese Vocab,Languages::Chinese::Mandarin Intermediate 2,shūshu,叔叔,,younger brother,noun
-Chinese Vocab,Languages::Chinese::Mandarin Intermediate 2,shěnshen,婶婶,,younger brother's wife,noun
-Chinese Vocab,Languages::Chinese::Mandarin Intermediate 2,gūmā,姑妈,,older sister,noun
-Chinese Vocab,Languages::Chinese::Mandarin Intermediate 2,gūzhàng,姑丈,,older sister's husband,noun
-Chinese Vocab,Languages::Chinese::Mandarin Intermediate 2,gūgu,姑姑,,younger sister,noun
-Chinese Vocab,Languages::Chinese::Mandarin Intermediate 2,gūzhàng,姑丈,,younger sister's husband,noun
-Chinese Vocab,Languages::Chinese::Mandarin Intermediate 2,tánggē,堂哥,,male cousin older,noun
-Chinese Vocab,Languages::Chinese::Mandarin Intermediate 2,tángdì,堂弟,,male cousin younger,noun
-Chinese Vocab,Languages::Chinese::Mandarin Intermediate 2,tángjiě,堂姐,,female cousin older,noun
-Chinese Vocab,Languages::Chinese::Mandarin Intermediate 2,tángmèi,堂妹,,female cousin younger,noun
-Chinese Vocab,Languages::Chinese::Mandarin Intermediate 2,wàipó,外婆,,grandma,noun
-Chinese Vocab,Languages::Chinese::Mandarin Intermediate 2,wàigōng,外公,,grandpa,noun
-Chinese Vocab,Languages::Chinese::Mandarin Intermediate 2,jiùjiu,舅舅,,older brother,noun
-Chinese Vocab,Languages::Chinese::Mandarin Intermediate 2,jiùmu,舅母,,older brother's wife,noun
-Chinese Vocab,Languages::Chinese::Mandarin Intermediate 2,jiùjiu,舅舅,,younger brother,noun
-Chinese Vocab,Languages::Chinese::Mandarin Intermediate 2,jiùmu,舅母,,younger brother's wife,noun
-Chinese Vocab,Languages::Chinese::Mandarin Intermediate 2,yímā,姨妈,,older sister,noun
-Chinese Vocab,Languages::Chinese::Mandarin Intermediate 2,yízhàng,姨丈,,older sister's husband,noun
-Chinese Vocab,Languages::Chinese::Mandarin Intermediate 2,āyí,阿姨,,younger sister,noun
-Chinese Vocab,Languages::Chinese::Mandarin Intermediate 2,yízhàng,姨丈,,younger sister's husband,noun
-Chinese Vocab,Languages::Chinese::Mandarin Intermediate 2,biǎogē,表哥,,male cousin older,noun
-Chinese Vocab,Languages::Chinese::Mandarin Intermediate 2,biǎodì,表弟,,male cousin younger,noun
-Chinese Vocab,Languages::Chinese::Mandarin Intermediate 2,biǎojiě,表姐,,female cousin older,noun
-Chinese Vocab,Languages::Chinese::Mandarin Intermediate 2,biǎomèi,表妹,,female cousin younger,noun
+Chinese Vocab,Languages::Chinese::Mandarin Intermediate 2,nǎinai,奶奶,,grandma (father's mother),noun
+Chinese Vocab,Languages::Chinese::Mandarin Intermediate 2,yéye,爷爷,,grandpa (father's father),noun
+Chinese Vocab,Languages::Chinese::Mandarin Intermediate 2,bófù,伯父,,uncle (father's older brother),noun
+Chinese Vocab,Languages::Chinese::Mandarin Intermediate 2,bómǔ,伯母,,aunt (father's older brother's wife),noun
+Chinese Vocab,Languages::Chinese::Mandarin Intermediate 2,shūshu,叔叔,,uncle (father's younger brother),noun
+Chinese Vocab,Languages::Chinese::Mandarin Intermediate 2,shěnshen,婶婶,,aunt (father's younger brother's wife),noun
+Chinese Vocab,Languages::Chinese::Mandarin Intermediate 2,gūmā,姑妈,,aunt (father's older sister),noun
+Chinese Vocab,Languages::Chinese::Mandarin Intermediate 2,gūzhàng,姑丈,,uncle (father's older sister's husband),noun
+Chinese Vocab,Languages::Chinese::Mandarin Intermediate 2,gūgu,姑姑,,aunt (father's younger sister),noun
+Chinese Vocab,Languages::Chinese::Mandarin Intermediate 2,gūzhàng,姑丈,,uncle (father's younger sister's husband),noun
+Chinese Vocab,Languages::Chinese::Mandarin Intermediate 2,tánggē,堂哥,,father's side male cousin older than me,noun
+Chinese Vocab,Languages::Chinese::Mandarin Intermediate 2,tángdì,堂弟,,father's side male cousin younger than me,noun
+Chinese Vocab,Languages::Chinese::Mandarin Intermediate 2,tángjiě,堂姐,,father's side female cousin older than me,noun
+Chinese Vocab,Languages::Chinese::Mandarin Intermediate 2,tángmèi,堂妹,,father's side female cousin younger than me,noun
+Chinese Vocab,Languages::Chinese::Mandarin Intermediate 2,wàipó,外婆,,grandma (mother's mother),noun
+Chinese Vocab,Languages::Chinese::Mandarin Intermediate 2,wàigōng,外公,,grandpa (mother's father),noun
+Chinese Vocab,Languages::Chinese::Mandarin Intermediate 2,jiùjiu,舅舅,,uncle (mother's older brother),noun
+Chinese Vocab,Languages::Chinese::Mandarin Intermediate 2,jiùmǔ,舅母,,aunt (mother's older brother's wife),noun
+Chinese Vocab,Languages::Chinese::Mandarin Intermediate 2,jiùjiu,舅舅,,uncle (mother's younger brother),noun
+Chinese Vocab,Languages::Chinese::Mandarin Intermediate 2,jiùmǔ,舅母,,aunt (mother's younger brother's wife),noun
+Chinese Vocab,Languages::Chinese::Mandarin Intermediate 2,yímā,姨妈,,aunt (mother's older sister),noun
+Chinese Vocab,Languages::Chinese::Mandarin Intermediate 2,yízhàng,姨丈,,uncle (mother's older sister's husband),noun
+Chinese Vocab,Languages::Chinese::Mandarin Intermediate 2,āyí,阿姨,,aunt (mother's younger sister),noun
+Chinese Vocab,Languages::Chinese::Mandarin Intermediate 2,yízhàng,姨丈,,uncle (mother's younger sister's husband),noun
+Chinese Vocab,Languages::Chinese::Mandarin Intermediate 2,biǎogē,表哥,,mother's side male cousin older than me,noun
+Chinese Vocab,Languages::Chinese::Mandarin Intermediate 2,biǎodì,表弟,,mother's side male cousin younger than me,noun
+Chinese Vocab,Languages::Chinese::Mandarin Intermediate 2,biǎojiě,表姐,,mother's side female cousin older than me,noun
+Chinese Vocab,Languages::Chinese::Mandarin Intermediate 2,biǎomèi,表妹,,mother's side female cousin younger than me,noun
 Chinese Vocab,Languages::Chinese::Mandarin Intermediate 2,jiějie,姐姐,,older sister,noun
 Chinese Vocab,Languages::Chinese::Mandarin Intermediate 2,jiěfū,姐夫,,older sister's husband,noun
 Chinese Vocab,Languages::Chinese::Mandarin Intermediate 2,mèimei,妹妹,,younger sister,noun
-Chinese Vocab,Languages::Chinese::Mandarin Intermediate 2,mèifū,妹夫,,younger sister husband,noun
+Chinese Vocab,Languages::Chinese::Mandarin Intermediate 2,mèifū,妹夫,,younger sister's husband,noun
 Chinese Vocab,Languages::Chinese::Mandarin Intermediate 2,gēge,哥哥,,older brother,noun
 Chinese Vocab,Languages::Chinese::Mandarin Intermediate 2,sǎozi,嫂子,,older brother's wife,noun
 Chinese Vocab,Languages::Chinese::Mandarin Intermediate 2,dìdi,弟弟,,younger brother,noun
@@ -84,28 +84,29 @@ Chinese Vocab,Languages::Chinese::Mandarin Intermediate 2,zhízi,侄子,,brother
 Chinese Vocab,Languages::Chinese::Mandarin Intermediate 2,zhínǚ,侄女,,brother's daughter,noun
 Chinese Vocab,Languages::Chinese::Mandarin Intermediate 2,hòutiān,后天,,day after tomorrow,noun
 Chinese Vocab,Languages::Chinese::Mandarin Intermediate 2,jùhuì,聚会,,a get-together,noun
-Chinese Vocab,Languages::Chinese::Mandarin Intermediate 2,dāngrán,当然,,of course,noun
+Chinese Vocab,Languages::Chinese::Mandarin Intermediate 2,dāngrán,当然,,of course,adverb
 Chinese Vocab,Languages::Chinese::Mandarin Intermediate 2,shàngjiē,上街,,go to the street shopping,phrase
 Chinese Vocab,Languages::Chinese::Mandarin Intermediate 2,shēngrì,生日,,birthday,noun
 Chinese Vocab,Languages::Chinese::Mandarin Intermediate 2,qíguài,奇怪,,strange,adjective
-Chinese Vocab,Languages::Chinese::Mandarin Intermediate 2,zìyánzì yǔ,自言自语,,self talk,noun
+Chinese Vocab,Languages::Chinese::Mandarin Intermediate 2,zìyánzì yǔ,自言自语,,self talk,verb phrase soliloquy
 Chinese Vocab,Languages::Chinese::Mandarin Intermediate 2,tōngcháng,通常,,generally/ usually,adverb
 Chinese Vocab,Languages::Chinese::Mandarin Intermediate 2,yībān,一般,,ordinary,adjective
 Chinese Vocab,Languages::Chinese::Mandarin Intermediate 2,fǎnzhèng,反正,,anyway,adverb
 Chinese Vocab,Languages::Chinese::Mandarin Intermediate 2,wèntí,问题,,"question, problem",noun
-Chinese Vocab,Languages::Chinese::Mandarin Intermediate 2,gòu,够,,enough,noun
-Chinese Vocab,Languages::Chinese::Mandarin Intermediate 2,qǐngjiào,请教,,ask for advice (humble),phrase
+Chinese Vocab,Languages::Chinese::Mandarin Intermediate 2,gòu,够,,enough,adjective/adverb
+Chinese Vocab,Languages::Chinese::Mandarin Intermediate 2,gòu,够,,to reach,verb
+Chinese Vocab,Languages::Chinese::Mandarin Intermediate 2,qǐngjiào,请教,,"consult, ask for advice (humble)",phrase
 Chinese Vocab,Languages::Chinese::Mandarin Intermediate 2,zhōngjié,终结,,"terminate, to end",verb
 Chinese Vocab,Languages::Chinese::Mandarin Intermediate 2,tíng,停,,stop,verb
 Chinese Vocab,Languages::Chinese::Mandarin Intermediate 2,..wán,verb + 完,,finish something,verb
-Chinese Vocab,Languages::Chinese::Mandarin Intermediate 2,sòngzhōng,送终,,attend a funeral,verb
+Chinese Vocab,Languages::Chinese::Mandarin Intermediate 2,sòngzhōng,送终,,to attend to the burial of a parent/elder,verb
 Chinese Vocab,Languages::Chinese::Mandarin Intermediate 2,sànkāi,散开,,disperse,verb
 Chinese Vocab,Languages::Chinese::Mandarin Intermediate 2,jìnjì,禁忌,,taboo,noun
 Chinese Vocab,Languages::Chinese::Mandarin Intermediate 2,hǎibiān,海边,,seaside,noun
 Chinese Vocab,Languages::Chinese::Mandarin Intermediate 2,fān,翻,,flip,verb
 Chinese Vocab,Languages::Chinese::Mandarin Intermediate 2,pà,怕,,scared of,verb
 Chinese Vocab,Languages::Chinese::Mandarin Intermediate 2,zhīzhū,蜘蛛,,spider,noun
-Chinese Vocab,Languages::Chinese::Mandarin Intermediate 2,kǒngpà,恐怕,,afraid that..,noun
+Chinese Vocab,Languages::Chinese::Mandarin Intermediate 2,kǒngpà,恐怕,,afraid that..,adverb
 Chinese Vocab,Languages::Chinese::Mandarin Intermediate 2,kànlái,看来,,looks like,adverb
 Chinese Vocab,Languages::Chinese::Mandarin Intermediate 2,zhùyì,注意,,pay attention to,verb
 Chinese Vocab,Languages::Chinese::Mandarin Intermediate 2,zhǔyì,主意,,idea,noun

@@ -11,11 +11,11 @@ Chinese Vocab,Languages::Chinese::Mandarin Intermediate 1,biānpào,鞭炮,,fire
 Chinese Vocab,Languages::Chinese::Mandarin Intermediate 1,biān,鞭,,whip,noun
 Chinese Vocab,Languages::Chinese::Mandarin Intermediate 1,pào,炮,,cannon,noun
 Chinese Vocab,Languages::Chinese::Mandarin Intermediate 1,rènào,热闹,,"busy, bustling",adjective
-Chinese Vocab,Languages::Chinese::Mandarin Intermediate 1,fú,褔,,blessed,adjective
+Chinese Vocab,Languages::Chinese::Mandarin Intermediate 1,fú,福,,"blessing, good fortune",noun
 Chinese Vocab,Languages::Chinese::Mandarin Intermediate 1,dàochù,到处,,everywhere,adverb
 Chinese Vocab,Languages::Chinese::Mandarin Intermediate 1,kèqì,客气,,"too kind, polite",adjective
 Chinese Vocab,Languages::Chinese::Mandarin Intermediate 1,yíyàng,一样,,the same,adjective
-Chinese Vocab,Languages::Chinese::Mandarin Intermediate 1,Nián yè fàn,年夜饭,,New Year's Eve dinner,noun
+Chinese Vocab,Languages::Chinese::Mandarin Intermediate 1,nián yè fàn,年夜饭,,New Year's Eve dinner,noun
 Chinese Vocab,Languages::Chinese::Mandarin Intermediate 1,xísú,习俗,,"tradition, custom",noun
 Chinese Vocab,Languages::Chinese::Mandarin Intermediate 1,shíwù,食物,,food,noun
 Chinese Vocab,Languages::Chinese::Mandarin Intermediate 1,yānhuā,烟花,,fireworks,noun
@@ -52,12 +52,12 @@ Chinese Vocab,Languages::Chinese::Mandarin Intermediate 1,shùnxīn,顺心,,"to 
 Chinese Vocab,Languages::Chinese::Mandarin Intermediate 1,xìxīn,细心,,"careful, meticulous, attentive",adjective
 Chinese Vocab,Languages::Chinese::Mandarin Intermediate 1,lěngxīn,冷心,,"cold-hearted, indifferent",adjective
 Chinese Vocab,Languages::Chinese::Mandarin Intermediate 1,xūxīn,虚心,,"humble, open-minded",adjective
-Chinese Vocab,Languages::Chinese::Mandarin Intermediate 1,kuān xīn,宽心,,"relieved, at ease","adjective, verb"
+Chinese Vocab,Languages::Chinese::Mandarin Intermediate 1,kuānxīn,宽心,,"relieved, at ease","adjective, verb"
 Chinese Vocab,Languages::Chinese::Mandarin Intermediate 1,tòngxīn,痛心,,"heartbroken, distressed",adjective
 Chinese Vocab,Languages::Chinese::Mandarin Intermediate 1,luànxīn,乱心,,"restless, anxious (mentally scattered)",adjective
 Chinese Vocab,Languages::Chinese::Mandarin Intermediate 1,qīngxīn,清心,,"calm, clear-hearted","adjective, verb"
 Chinese Vocab,Languages::Chinese::Mandarin Intermediate 1,píngxīn,平心,,"calm, even-tempered","adjective, verb"
-Chinese Vocab,Languages::Chinese::Mandarin Intermediate 1,fànguǎn,饭馆,,"restaurant (small, informal )",noun
+Chinese Vocab,Languages::Chinese::Mandarin Intermediate 1,fànguǎn,饭馆,,"restaurant (small, informal)",noun
 Chinese Vocab,Languages::Chinese::Mandarin Intermediate 1,cāntīng,餐厅,,restaurant (medium),noun
 Chinese Vocab,Languages::Chinese::Mandarin Intermediate 1,jiǔlóu,酒楼,,"restaurant (large, formal)",noun
 Chinese Vocab,Languages::Chinese::Mandarin Intermediate 1,kuàicān diàn,快餐店,,fastfood restaurant,noun
@@ -74,15 +74,16 @@ Chinese Vocab,Languages::Chinese::Mandarin Intermediate 1,tāng,汤,,soup,noun
 Chinese Vocab,Languages::Chinese::Mandarin Intermediate 1,táng,糖,,"sweets, sugar, candy",noun
 Chinese Vocab,Languages::Chinese::Mandarin Intermediate 1,zhǔshí,主食,,"main dish, staple food",noun
 Chinese Vocab,Languages::Chinese::Mandarin Intermediate 1,yǐnliào,饮料,,beverages,noun
-Chinese Vocab,Languages::Chinese::Mandarin Intermediate 1,hú,壶,,"a pot, measure word for tea etc.",noun
-Chinese Vocab,Languages::Chinese::Mandarin Intermediate 1,liǎng,两,,~ 50 grams,numeral
+Chinese Vocab,Languages::Chinese::Mandarin Intermediate 1,hú,壶,,"a pot, measure word for tea etc.","noun, measure word"
+Chinese Vocab,Languages::Chinese::Mandarin Intermediate 1,liǎng,两,,~ 50 grams,"numeral, measure word"
 Chinese Vocab,Languages::Chinese::Mandarin Intermediate 1,chūnjuǎn,春卷,,spring rolls,noun
 Chinese Vocab,Languages::Chinese::Mandarin Intermediate 1,tiánsuān ròu,甜酸肉,,sweet and sour pork,noun
 Chinese Vocab,Languages::Chinese::Mandarin Intermediate 1,Běijǐng kǎoyā,北京烤鸭,,Beijing roast duck,noun
 Chinese Vocab,Languages::Chinese::Mandarin Intermediate 1,suànróng báicài,蒜蓉白菜,,Garlic fried Pak Choi,noun
 Chinese Vocab,Languages::Chinese::Mandarin Intermediate 1,mápó dòufu,麻婆豆腐,,Mapo Tofu,noun
 Chinese Vocab,Languages::Chinese::Mandarin Intermediate 1,là,辣,,spicy,adjective
-Chinese Vocab,Languages::Chinese::Mandarin Intermediate 1,dàn/jīròu chǎofàn,蛋、鸡肉炒饭,,egg/chicken fried rice,noun
+Chinese Vocab,Languages::Chinese::Mandarin Intermediate 1,dàn chǎofàn,蛋炒饭,,egg fried rice,noun
+Chinese Vocab,Languages::Chinese::Mandarin Intermediate 1,jīròu chǎofàn,鸡肉炒饭,,chicken fried rice,noun
 Chinese Vocab,Languages::Chinese::Mandarin Intermediate 1,jīròu,鸡肉,,chicken,noun
 Chinese Vocab,Languages::Chinese::Mandarin Intermediate 1,niúròu,牛肉,,beef,noun
 Chinese Vocab,Languages::Chinese::Mandarin Intermediate 1,zhūròu,猪肉,,pork,noun
@@ -91,10 +92,11 @@ Chinese Vocab,Languages::Chinese::Mandarin Intermediate 1,yángròu,羊肉,,"lam
 Chinese Vocab,Languages::Chinese::Mandarin Intermediate 1,yú,鱼,,fish,noun
 Chinese Vocab,Languages::Chinese::Mandarin Intermediate 1,xiā,虾,,prawn,noun
 Chinese Vocab,Languages::Chinese::Mandarin Intermediate 1,yóuyú,鱿鱼,,squid,noun
-Chinese Vocab,Languages::Chinese::Mandarin Intermediate 1,(jī)dàn,（鸡）蛋,,(chicken) egg,noun
+Chinese Vocab,Languages::Chinese::Mandarin Intermediate 1,dàn,蛋,,egg,noun
+Chinese Vocab,Languages::Chinese::Mandarin Intermediate 1,jīdàn,鸡蛋,,chicken egg,noun
 Chinese Vocab,Languages::Chinese::Mandarin Intermediate 1,xīlán huā,西兰花,,broccoli,noun
 Chinese Vocab,Languages::Chinese::Mandarin Intermediate 1,húluóbo,胡萝卜,,carrot,noun
-Chinese Vocab,Languages::Chinese::Mandarin Intermediate 1,tǔdòu/ mǎlíng shǔ,土豆、马铃薯,,potato,noun
+Chinese Vocab,Languages::Chinese::Mandarin Intermediate 1,tǔdòu / mǎlíngshǔ,土豆 / 马铃薯,,potato,noun
 Chinese Vocab,Languages::Chinese::Mandarin Intermediate 1,xīhóngshì,西红柿,,tomato (colloquial) north ch.,noun
 Chinese Vocab,Languages::Chinese::Mandarin Intermediate 1,fānqié,番茄,,tomato (more formal) south ch.,noun
 Chinese Vocab,Languages::Chinese::Mandarin Intermediate 1,yùmǐ,玉米,,corn,noun
@@ -102,7 +104,6 @@ Chinese Vocab,Languages::Chinese::Mandarin Intermediate 1,chǎo,炒,,stir fry,ve
 Chinese Vocab,Languages::Chinese::Mandarin Intermediate 1,zhēng,蒸,,steam,verb
 Chinese Vocab,Languages::Chinese::Mandarin Intermediate 1,kǎo,烤,,roast,verb
 Chinese Vocab,Languages::Chinese::Mandarin Intermediate 1,jiān,煎,,pan fry,verb
-Chinese Vocab,Languages::Chinese::Mandarin Intermediate 1,tāng,汤,,in soup,noun
 Chinese Vocab,Languages::Chinese::Mandarin Intermediate 1,zhá,炸,,deep fry,verb
 Chinese Vocab,Languages::Chinese::Mandarin Intermediate 1,báifàn,白饭,,rice (lit. white rice),noun
 Chinese Vocab,Languages::Chinese::Mandarin Intermediate 1,miàn,面,,noodles,noun
@@ -120,7 +121,7 @@ Chinese Vocab,Languages::Chinese::Mandarin Intermediate 1,tián,甜,,sweet,adjec
 Chinese Vocab,Languages::Chinese::Mandarin Intermediate 1,suān,酸,,sour,adjective
 Chinese Vocab,Languages::Chinese::Mandarin Intermediate 1,kǔ,苦,,bitter,adjective
 Chinese Vocab,Languages::Chinese::Mandarin Intermediate 1,yǐnshí,饮食,,"food & drink, diet",noun
-Chinese Vocab,Languages::Chinese::Mandarin Intermediate 1,qǐngkè,清客,,to treat,verb
+Chinese Vocab,Languages::Chinese::Mandarin Intermediate 1,qǐngkè,请客,,to treat,verb
 Chinese Vocab,Languages::Chinese::Mandarin Intermediate 1,càixì,菜系,,cuisine type,noun
 Chinese Vocab,Languages::Chinese::Mandarin Intermediate 1,xìtǒng,系统,,system,noun
 Chinese Vocab,Languages::Chinese::Mandarin Intermediate 1,zìjǐ,自己,,oneself,pronoun
@@ -143,17 +144,17 @@ Chinese Vocab,Languages::Chinese::Mandarin Intermediate 1,gǎibiàn,改变,,chan
 Chinese Vocab,Languages::Chinese::Mandarin Intermediate 1,xíguàn,习惯,,habit (noun),noun
 Chinese Vocab,Languages::Chinese::Mandarin Intermediate 1,xíguàn,习惯,,to get used to (verb),verb
 Chinese Vocab,Languages::Chinese::Mandarin Intermediate 1,gāi,该,,should,modal verb
-Chinese Vocab,Languages::Chinese::Mandarin Intermediate 1,yīngāi,应该,,should,modal verb
+Chinese Vocab,Languages::Chinese::Mandarin Intermediate 1,yīnggāi,应该,,should,modal verb
 Chinese Vocab,Languages::Chinese::Mandarin Intermediate 1,ránhòu,然后,,then,adverb
 Chinese Vocab,Languages::Chinese::Mandarin Intermediate 1,jiéhūn,结婚,,to marry (verb),verb
 Chinese Vocab,Languages::Chinese::Mandarin Intermediate 1,měiguó,美国,,America,proper noun
 Chinese Vocab,Languages::Chinese::Mandarin Intermediate 1,rènshì,认识,,to know (somebody),verb
 Chinese Vocab,Languages::Chinese::Mandarin Intermediate 1,huì,会,,to know (skill),modal verb
 Chinese Vocab,Languages::Chinese::Mandarin Intermediate 1,zhīdào,知道,,to know (info),verb
-Chinese Vocab,Languages::Chinese::Mandarin Intermediate 1,cháng chang de,长长的,,long,adjective
-Chinese Vocab,Languages::Chinese::Mandarin Intermediate 1,duǎn duan de,短短的,,short,adjective
-Chinese Vocab,Languages::Chinese::Mandarin Intermediate 1,juǎn juan de,卷卷的,,curly,adjective
-Chinese Vocab,Languages::Chinese::Mandarin Intermediate 1,zhí zhi de,直直的,,straight,adjective
+Chinese Vocab,Languages::Chinese::Mandarin Intermediate 1,chángchang de,长长的,,long,adjective
+Chinese Vocab,Languages::Chinese::Mandarin Intermediate 1,duǎnduǎn de,短短的,,short,adjective
+Chinese Vocab,Languages::Chinese::Mandarin Intermediate 1,juǎnjuǎn de,卷卷的,,curly,adjective
+Chinese Vocab,Languages::Chinese::Mandarin Intermediate 1,zhízhí de,直直的,,straight,adjective
 Chinese Vocab,Languages::Chinese::Mandarin Intermediate 1,jīnsè de,金色的,,blond,adjective
 Chinese Vocab,Languages::Chinese::Mandarin Intermediate 1,hēisè de,黑色的,,black,adjective
 Chinese Vocab,Languages::Chinese::Mandarin Intermediate 1,lánsè de,蓝色的,,blue,adjective
@@ -175,14 +176,13 @@ Chinese Vocab,Languages::Chinese::Mandarin Intermediate 1,xiǎoqì,小气,,sting
 Chinese Vocab,Languages::Chinese::Mandarin Intermediate 1,dàfàng,大方,,generous,adjective
 Chinese Vocab,Languages::Chinese::Mandarin Intermediate 1,yǒnggǎn,勇敢,,brave,adjective
 Chinese Vocab,Languages::Chinese::Mandarin Intermediate 1,pàsǐ,怕死,,fearful,adjective
-Chinese Vocab,Languages::Chinese::Mandarin Intermediate 1,jìng,靜,,quiet,adjective
+Chinese Vocab,Languages::Chinese::Mandarin Intermediate 1,jìng,静,,quiet,adjective
 Chinese Vocab,Languages::Chinese::Mandarin Intermediate 1,shénjīngzhì,神经质,,neurotic,adjective
 Chinese Vocab,Languages::Chinese::Mandarin Intermediate 1,lǎn,懒,,lazy,adjective
 Chinese Vocab,Languages::Chinese::Mandarin Intermediate 1,tānxīn,贪心,,greedy,adjective
 Chinese Vocab,Languages::Chinese::Mandarin Intermediate 1,biàntài,变态,,"perverted, twisted",adjective
 Chinese Vocab,Languages::Chinese::Mandarin Intermediate 1,gé hé yàngzi,格和样子,,style and appearance,noun
 Chinese Vocab,Languages::Chinese::Mandarin Intermediate 1,yánsè,颜色,,colour,noun
-Chinese Vocab,Languages::Chinese::Mandarin Intermediate 1,zhòngyao,重要,,important,adjective
 Chinese Vocab,Languages::Chinese::Mandarin Intermediate 1,xǐqìng,喜庆,,celebratory,adjective
 Chinese Vocab,Languages::Chinese::Mandarin Intermediate 1,yīfú,衣服,,clothes,noun
 Chinese Vocab,Languages::Chinese::Mandarin Intermediate 1,chuān (yīfú),穿（衣服）,,wear/put on (clothes),verb
