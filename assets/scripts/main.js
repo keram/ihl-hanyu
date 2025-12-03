@@ -275,10 +275,15 @@ function handleSpeakTextBlockClick(elm) {
 }
 
 function initVocabularyPractice() {
+  const inclusiveRange = (start, end) =>
+        Array.from({ length: end - start }, (_, i) => start + i);
+
   for (const table of document.querySelectorAll('.vocabulary table')) {
     shuffleRows(table.querySelector('tbody'));
-    hideColumn(table, 1); // pinyin
-    hideColumn(table, 2); // english
+    let cols = table.querySelectorAll('tr th');
+    inclusiveRange(1, cols.length).forEach(
+      (i) => { hideColumn(table, i); }
+    );
   }
 }
 
