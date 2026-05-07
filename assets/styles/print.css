@@ -26,7 +26,12 @@ h2 {
 }
 
 table {
-  width: 48%;
-  float: left;
+  min-width: 48%;
+  /* float: left; */
   white-space: nowrap;
+}
+
+.lang-block p span {
+  visibility: visible !important;
+  opacity: 1 !important;
 }
