@@ -35,3 +35,8 @@ table {
   visibility: visible !important;
   opacity: 1 !important;
 }
+
+.vocabulary td.td-invisible {
+  opacity: 1 !important;
+  visibility: visible;
+}
