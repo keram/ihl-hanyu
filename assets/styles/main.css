@@ -126,8 +126,13 @@ ruby {
   text-align: left;
 }
 
+ruby:hover {
+  /* z-index: 100; */
+}
+
 rt, rtc {
   line-height: 1;
+  /* background: #ffffee; */
 }
 
 rp {
